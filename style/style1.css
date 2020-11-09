@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.customPadding{
+    padding-top: 25px;
+}
+.mainNav{
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    z-index: 1;
+    background: #0009;
+    margin: 0 auto;
+    width: calc(100% -60px);
+    border-radius: 15px;
+}
+body{
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    font-size: 87,6%;
+}
+.content{
+    width: 72%;
+    float: left;
+    padding:15 15 15 15;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+.createContent{
+    width: 100%;
+    float: left;
+    padding:15 15 15 15;
+    margin-right: 10px;
+}
+.mainSidebar{
+    margin-top: 17px;
+    width: 27%;
+    float: right;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding : 1% 1% 1% 1%;
+    border: black 1px solid;
+   
+}
+.secondSidebar{
+    margin-top: 15px;
+    width: 27%;
+    float: right;
+    background-color: whitesmoke;
+    border-radius:10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 1% 1%;
+    border: black 1px solid;
+}
+.article , .article1, .article2{
+    background-color: whitesmoke;
+    opacity: 15px;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0px auto ;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+
+
+}
+.article h3 a{
+    text-decoration: none;
+}
+.article h3 a:hover{
+    color: blue;
+}
+
+.createArticle{
+    background-color: whitesmoke;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0px auto ;
+    width: 100%;
+    border: 1px solid black;
+}
+.fullArticle{
+    background-color: whitesmoke;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left:0px auto ;
+    margin-top: 17px;
+    width: 70%;
+    padding: 0 5 35 35;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    clear: both;
+}
+
+.mainH1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/*.mainNav,*/ .mainHeader{
+    width: 100%; 
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: right;
+}
+.mainnavList{
+    display: inline;
+    font-size: 20px;
+}
+.mainnavList a{
+    text-decoration: none;
+    color: black;
+}
+.mainnavList a:hover{
+
+    background-color: skyblue;
+    transition: 0.5s ease-in ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.mainNavUl{
+   list-style: none;
+   display: inline-block;
+
+}
+.mainNavUl li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+.logo{
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    padding-left: 2%;
+    }
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    z-index: 1;
+    margin: 0 auto;
+    width: calc(100% -60px);
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+.logo a:hover{
+    background-color: skyblue;
+    transition: 0.5s ease-in ;
+    text-decoration: none;
+}
+.thumbnail{
+    float: left;
+    line-height: 35px;
+    padding: 20 20;
+}
+p{
+    padding: 30 40 20 30;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1 a{
+    line-height: 45px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+.readMore a{
+    line-height: 45px;
+    color: orange;
+}
+h3{
+    text-align: center;
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.centralButtons ul li{
+    display: inline;
+}
+.centralButtons{
+    margin-top: 300px;
+    text-align: center;
+}
+.centralButtons a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    z-index: 1;
+    background: #0009;
+    margin: 0 auto;
+    width: calc(100% -60px);
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+.centralButtons a:hover{
+    background-color: skyblue;
+    transition: 0.5s ease-in ;
+    text-decoration: none;
+}
+.bigPic{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+table{
+    text-align: center;
+    
+}
+.bigPicLogo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.mainFooter{
+  width: fit-content;
+  align-items: center;
+}
+
+textarea, .contentBox {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textarea;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: none;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0px auto;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: none;
+    border-image: initial;
+    padding-top: 20px;
+    padding-left:15px ;
+    padding-right: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.contentBox {
+
+    width: 90%;
+    margin : 0px auto;
+    font-size: 18px;
+}
+
+
+.mainnavListLink{
+    background-color: none;
+}
+
+.header-login form button{
+height: 100%;
+padding: 0 10px;
+border: none;
+border-radius: 4px;
+background-color: black;
+margin-left: 8px;
+font-family: arial;
+font-size: 13px;
+color: skyblue;
+text-transform: uppercase;
+text-align: center;
+}
+.writeContent{
+    border: 1px black solid;
+    border-radius: 55px;
+}
+
+
+.contentWrapp{
+    width: 65%;
+    float: left;
+    padding:15 15 15 15;
+    margin-right: 2px;
+    height: 100%;
+}
+
+.articleWrapp{
+background-color: whitesmoke;
+border-radius:5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-left:0px auto ;
+padding: 0 5 35 35;
+height: 125%;
+border: 1px solid black;
+}
+#login{
+    padding: 50;
+    margin: 0px auto;
+    width: 600px;
+    height: auto;
+    border: solid black 1px;
+    background-color: rgb(80, 81, 82);
+    border-radius: 15px;
+    background-image: url(../imgs/bg.jpg);
+}
+
+.logoutButton{
+padding: 0 10px;
+border: none;
+border-radius: 4px;
+background-color: blue;
+margin-left: 8px;
+font-family: arial;
+font-size: 18px;
+color:white;
+text-transform: uppercase;
+text-align: center;
+text-decoration: none;
+font: pacifico;
+
+
+}
+.logoutButton a:hover{
+    background-color: red;
+    transition: 0.5s ease-in ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+#imgLogout{
+    width: 50%;
+    height: auto ;
+    margin: auto 0px;
+    text-align: center; 
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    border-radius: 30px;
+}
+#logoutWrapper{
+    text-align: center;
+    color: red;
+    padding:10px;
+    font-size: 18px;
+}
+.logoutImage{
+    opacity: 10%;
+    margin-left:100px;
+    padding-bottom: 20px;
+}
+
+#logoutDiv{
+    margin: auto 0px;
+    max-width: 50%;
+    float: right;
+}
+
+.comment-box{
+    background-color: white;
+    border: solid black 1px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+#adminPage ul li {
+    border: solid black 1px;
+    padding: 2%;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    background: #0009;
+    text-transform: uppercase;
+    border-radius: 15px;
+    height: 130px;
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #0009;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border: black 1px solid;    
+}
+#adminPage ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.s ease-in ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+#adminPage li {
+        height: 50px;
+        padding: 5px;
+
+}
+.adminTools{
+
+
+}

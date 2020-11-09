@@ -1,0 +1,68 @@
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    width: 600px;
+    height: 100px;
+    resize:none;
+    cursor: default;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-style: none;
+    padding: 2px 0px 0px 2px;
+    position: relative;
+}
+.combutton{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: arial;
+    font-weight: 400;
+    cursor: pointer;
+}
+.comment-box{
+    width: 600px;
+    padding: 15px;
+    margin-bottom: 4px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 4px;
+    position: relative;
+    margin-top: 10px;
+    
+
+}
+.edit-form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.edit-form button{
+   width: 40px;
+   height: 20px;
+   color: #282828;
+   background-color: transparent;
+   opacity: 0.7;
+}
+.edit-form button:hover{
+   opacity: 1;
+ }
+
+ .delete-form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.delete-form button{
+   width: 40px;
+   height: 20px;
+   color: #282828;
+   background-color: transparent;
+   opacity: 0.7;
+}
+.delete-form button:hover{
+   opacity: 1;
+ }
